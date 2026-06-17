@@ -1,0 +1,99 @@
+/* Page styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ),
+    url("bg.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;  /* horizontal center */
+    align-items: center;      /* vertical center */
+    color: white;
+
+    /* Form container */
+.container {
+    background: rgba(255, 255, 255, 0.15); /* glass effect */
+    padding: 25px;
+    border-radius: 12px;
+    width: 300px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+}
+
+/* Heading */
+h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+/* Input fields */
+input {
+    width: 90%;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+/* Input focus effect */
+input:focus {
+    box-shadow: 0 0 5px #333;
+}
+
+/* Button */
+button {
+    width: 270px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #ffffff;
+    color: #4facfe;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Button hover */
+button:hover {
+    background-color: #009acd;
+}
+
+/* Result text */
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+/* Probability text */
+#prob {
+    font-size: 18px;
+    color: #f0f0f0;
+}
+
+/* Suggestions list */
+#suggestions {
+    margin-top: 15px;
+    padding-left: 20px;
+    text-align: left;
+    color: #ffffff;   /* make sure visible */
+}
+
+/* Each suggestion item */
+#suggestions li {
+    margin: 5px 0;
+    font-size: 14px;
+}

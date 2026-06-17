@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Placement Predictor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<h2>Placement Prediction System</h2>
+
+<input id="cgpa" placeholder="CGPA"><br>
+<input id="internships" placeholder="Internships"><br>
+<input id="projects" placeholder="Projects"><br>
+
+<input id="workshops" placeholder="Workshops"><br> <!-- moved up -->
+
+<input id="aptitude" placeholder="Aptitude Score"><br>
+<input id="softskills" placeholder="Soft Skills"><br>
+
+<input id="extracurricular" placeholder="Extra Curricular (1/0)"><br>
+<input id="training" placeholder="Placement Training (1/0)"><br>
+
+<input id="ssc" placeholder="SSC %"><br>
+<input id="hsc" placeholder="HSC %"><br>
+<button onclick="predict()">Predict</button>
+
+<h3 id="result"></h3>
+<h4 id="prob"></h4>
+<ul id="suggestions"></ul>
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
